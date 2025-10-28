@@ -2,6 +2,16 @@
 
 All notable changes to `filament-otp-login` will be documented in this file.
 
+## v2.0.1 - 2025-01-28
+
+### What's Changed
+
+* Updated package name to `hamaqiali/filament-otp-login` for forked repository
+* Updated repository URLs to point to fork
+* No functional changes - same features as v2.0.0
+
+**Full Changelog**: https://github.com/hamaqiali/filament-otp-login/compare/v2.0.0...v2.0.1
+
 ## v2.0.0 - 2025-01-28
 
 ### 🚀 Major Update - Filament v4 & Laravel 11 Support
