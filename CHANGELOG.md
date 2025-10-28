@@ -2,6 +2,51 @@
 
 All notable changes to `filament-otp-login` will be documented in this file.
 
+## v2.0.0 - 2025-01-28
+
+### 🚀 Major Update - Filament v4 & Laravel 11 Support
+
+This is a major version release with breaking changes for upgrading to Filament v4 and Laravel 11.
+
+#### ⚡ What's Changed
+
+* **Upgraded to Filament v4** (from v3) - now requires `filament/filament: ^4.0`
+* **Upgraded to Laravel 11** (from Laravel 10) - via Filament v4 dependencies
+* **Upgraded to Tailwind CSS v4** - using Filament's built-in Tailwind v4 support
+* **PHP 8.2+ required** (from PHP 8.1)
+* Updated all dev dependencies for compatibility:
+  - `nunomaduro/collision` to v8
+  - `orchestra/testbench` to v9
+  - `pestphp/pest` to v3
+  - All pest plugins to v3
+* Simplified build configuration - removed unused Tailwind build scripts (plugin uses Filament's built-in styles)
+* Migrated configuration files to ES modules for v4 compatibility
+
+#### 🔄 Breaking Changes
+
+* **Minimum PHP version: 8.2+**
+* **Requires Filament v4** - not compatible with Filament v3
+* **Requires Laravel 11** - not compatible with Laravel 10
+
+#### ✅ Compatibility
+
+All existing functionality remains the same:
+- OTP login flow
+- Email notifications
+- Rate limiting
+- Direct login bypass with `CanLoginDirectly`
+- Custom OTP input component
+
+No code changes required in your implementation - only update your `composer.json` to require v2.
+
+#### 📦 Upgrade Guide
+
+```bash
+composer require afsakar/filament-otp-login:^2.0
+```
+
+**Full Changelog**: https://github.com/afsakar/filament-otp-login/compare/v1.4.0...v2.0.0
+
 ## v1.4.0 - 2025-05-28
 
 ### What's Changed
