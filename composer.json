@@ -1,15 +1,15 @@
 {
-    "name": "afsakar/filament-otp-login",
+    "name": "hamaqiali/filament-otp-login",
     "description": "OTP Login for FilamentPHP",
     "keywords": [
         "afsakar",
         "laravel",
         "filament-otp-login"
     ],
-    "homepage": "https://github.com/afsakar/filament-otp-login",
+    "homepage": "https://github.com/hamaqiali/filament-otp-login",
     "support": {
-        "issues": "https://github.com/afsakar/filament-otp-login/issues",
-        "source": "https://github.com/afsakar/filament-otp-login"
+        "issues": "https://github.com/hamaqiali/filament-otp-login/issues",
+        "source": "https://github.com/hamaqiali/filament-otp-login"
     },
     "license": "MIT",
     "authors": [
